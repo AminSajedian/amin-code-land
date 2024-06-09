@@ -1,11 +1,14 @@
 // import Image from "next/image";
-import styles from "./page.module.css";
+import Table from "@/components/common/Table";
+import Header from "@/components/layout/Header";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Amin Code Land</h1>
-      <div>Coming soon</div>
-    </main>
+    <>
+      <Header />
+      <main>
+        <Table />
+      </main>
+    </>
   );
 }
